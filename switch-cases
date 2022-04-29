@@ -1,0 +1,36 @@
+#include <stdio.h>
+void main()
+{
+    int choice;
+    printf("Press 1 to order pizza, just for Rs 239 \n");
+    printf("Press 2 to order burger, just for Rs 1299\n");
+    printf("Press 3 to order pasta, just for Rs 179\n");
+    printf("Press 4 to order french fries, just for Rs 99\n");
+    printf("Press 5 to order sandwich, just for Rs 149\n");
+    printf("Enter your choice:\n");
+    scanf("%d",&choice);
+    switch (choice) {
+    case 1: {
+        printf("your order is pizza. \n");
+        break;
+    }
+    case 2: {
+        printf("your order is burger. \n");
+        break;
+    }
+    case 3: {
+        printf("your order is pasta. \n");
+        break;
+    }
+    case 4: {
+        printf("your order is french fries. \n");
+        break;
+    }
+    case 5: {
+        printf("your order is sandwich. \n");
+        break;
+    }
+    default:
+        printf("wrong Input\n");
+    }
+}
